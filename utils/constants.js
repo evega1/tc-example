@@ -1,14 +1,14 @@
-module.exports = {
-    validEmail: 'edwin.vega@wizeline.com',
-    validPass: 'passpass1',
-    invalidPass: 'passpass',
-    invalidEmail: 'email@mailcom',
-    invalidUser: 'user@mail.com',
-    emptyText: '',
-    errorText: 'Wrong email or password.',
-    errorTextEmail: 'Invalid email address.',
-    errorTextBlankFields: 'Blank email and password.',
-    errorTextBlankEmail: 'Blank email.',
-    errorTextBlankPass: 'Blank password.',
-    lastTaskIndex: -1
-}
+export const VALID_EMAIL = 'edwin.vega@wizeline.com';
+export const VALID_PASSWORD = 'passpass1';
+export const INVALID_PASSWORD = 'passpass';
+export const INVALID_EMAIL = 'email@mailcom';
+export const INVALID_USER = 'user@mail.com';
+export const EMPTY_TEXT = '';
+export const ERROR_MESSAGE = 'Wrong email or password.';
+export const ERROR_MSG_INVALID_EMAIL = 'Invalid email address.';
+export const ERROR_MSG_EMPTY_FIELDS = 'Blank email and password.';
+export const ERROR_MSG_EMPTY_EMAIL = 'Blank email.';
+export const ERROR_MSG_EMPTY_PASS = 'Blank password.';
+export const LAST_TASK_INDEX = -1;
+export const BASE_URL = 'https://www.todoist.com/';
+export const TASK_LIST_LENGTH = 10;
