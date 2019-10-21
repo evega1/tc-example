@@ -6,7 +6,7 @@ import * as helpers from '../utils/data-helpers';
 const loginPage = new LoginPage();
 const startPage = new StartPage();
 
-fixture `Create new task in dashboard`.page `${c.BASE_URL}`;
+fixture `New tasks creation in dashboard`.page `${c.BASE_URL}`;
 
 test('Create new task', async t => {
     let taskText = helpers.getRandomText();

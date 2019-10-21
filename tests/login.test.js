@@ -19,7 +19,7 @@ test('Enter invalid user and get error message', async t => {
 });
 
 test('Enter invalid password and get error message', async t => {
-    await loginPage.login(c.INVALID_USER, c.VALID_PASSWORD);
+    await loginPage.login(c.VALID_EMAIL, c.INVALID_PASSWORD);
     await t.expect(loginPage.errorMessage.innerText).contains(c.ERROR_MESSAGE);
 });
 
